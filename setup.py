@@ -11,5 +11,6 @@ setup(
         "aiohttp>=3.7.3"
     ],
     packages=['aioTelegramLogs'],
-    python_requires=">=3.5"
+    python_requires=">=3.5",
+    include_package_data=False
 ) 
